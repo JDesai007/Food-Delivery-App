@@ -1,0 +1,19 @@
+.contact-form {
+  border-radius: 12px;
+}
+
+.custom-input {
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.custom-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+
+.status-message {
+  font-weight: 500;
+  color: #28a745; /* green for success */
+}

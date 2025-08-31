@@ -1,0 +1,55 @@
+/* Order tracker styles */
+.order-tracker {
+  margin-top: 20px;
+}
+
+.order-tracker .step {
+  flex: 1;
+  color: #aaa;
+}
+
+.order-tracker .step i {
+  font-size: 1.6rem;
+  display: block;
+  margin-bottom: 5px;
+  color: #ccc; /* default gray */
+}
+
+.order-tracker .step.active i {
+  color: #28a745; /* green tick when active */
+}
+
+.order-tracker .step p {
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+/* ✅ Equal card size in a row */
+.my-orders .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.my-orders .col-md-6,
+.my-orders .col-lg-4 {
+  display: flex;
+}
+
+.my-orders .card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Card body stretches */
+.my-orders .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Optional: prevent very tall cards when too many items */
+.my-orders .order-items {
+  max-height: 120px;   /* adjust as needed */
+  overflow-y: auto;    /* scroll if too many items */
+}

@@ -1,0 +1,57 @@
+.footer {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Dark gradient */
+  color: #e0e0e0;
+  padding: 3rem 0 1.5rem;
+}
+
+.footer h6 {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #00d9a5; /* Teal heading */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-link {
+  color: #b0b0b0;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #00d9a5; /* Teal hover */
+  padding-left: 4px;
+}
+
+.footer .small {
+  color: #a8a8a8;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: #b0b0b0;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #00d9a5;
+}
+
+.footer img {
+  border: 2px solid #00d9a5;
+  background: #fff;
+  padding: 4px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.footer img:hover {
+  transform: rotate(5deg) scale(1.05);
+}
+
+.footer hr {
+  border-color: rgba(255, 255, 255, 0.15);
+}
